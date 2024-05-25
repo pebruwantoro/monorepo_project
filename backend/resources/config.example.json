@@ -1,0 +1,20 @@
+{
+  "logger": {
+    "isEnable": true
+  },
+  "db": {
+    "driver": "mysql",
+    "username": "root",
+    "password": "root",
+    "name": "test",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "maxIdleConnections": 10,
+    "maxOpenConnections": 30,
+    "debugMode": true,
+    "timeout": "60s",
+    "writeTimeout": "60s",
+    "readTimeout": "60s",
+    "sslmode": "disable"
+  }
+}
