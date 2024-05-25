@@ -99,7 +99,7 @@ func (cv *DataValidator) Validate(i interface{}) error {
 
 func SkipLoggerMiddleware(path string) bool {
 	switch path {
-	case "/", "/metrics", "/favicon.ico":
+	case "/", "/health", "/metrics", "/favicon.ico":
 		return true
 	}
 
